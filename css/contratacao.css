@@ -1,0 +1,84 @@
+.contratacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1,440px;
+    height: 1,798px;
+    top: 775px;
+    padding: 96px 0;
+    gap: 64px;
+}
+.contratacao_titulo{
+    font-family: inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: #8E2424;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+}
+.contratacao_titulo_secundario{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+}
+.contratacao_titulo_conteudo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+.contratacao_imagem{
+    width: 1216px;
+    height: 400px;
+    left: 112px;
+    top: 298px;
+}
+
+.contratacao_lista_titulo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 768px;
+    height: 30px;
+    padding: 1em;
+}
+.contratacao_lista_primario{
+    box-sizing: border-box;
+    padding: 24px 24px 28px 0;
+    gap: 64px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin: 1rem;
+}
+.contratacao_lista_secundario{
+    font-family: inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    padding: 1rem;
+}
+.contratacao_lista_conteudo{
+    display: inline;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #667085;
+    font-style: normal;
+    padding: 1rem 1rem;
+}

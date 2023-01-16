@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    display: grid;
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+
+}
+.cabecalho {
+    grid-area: cabecalho;
+    display: grid;
+    grid-template-columns: calc(100% / 4);
+    grid-template-rows: auto;
+    padding: 0 178px;
+    margin-top: 12px;
+}
+
+.conteudo{
+    grid-area: conteudo;
+}
+.rodape{
+    grid-area: rodape;
+}

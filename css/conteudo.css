@@ -1,0 +1,46 @@
+.conteudo_sobrenos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 2em;
+    padding: 96px, 0px, 96px, 0px;
+    top: 80px;
+    height: 407px;
+    gap: 24px;
+    
+}
+.conteudo_principal_nos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #8E2424;
+}
+.conteudo_secundario_primo{
+    display: flex;
+    justify-content: center;
+    font-family: inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -2%;
+    padding: 1rem 0;
+}
+.conteudo_secundario_segundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+    top: 12px;
+    height: hug (60px);
+    width: 791px;
+    padding: 1em 0;
+    height: 60px;
+}

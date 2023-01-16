@@ -1,0 +1,55 @@
+.quadro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(196, 25, 25, 0.03);
+    width: 1216px;
+    height: 404px;
+}
+.quadro_primario{
+    display: flex;
+    flex-direction: column;
+}
+.quadro_titulo{
+    color: #8e2424;
+    font-family: inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    padding: 1rem;
+}
+.quadro_texto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+    text-align: center;
+    
+}
+.quadro_nome{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 5.8em;
+    background: url(/img/Avatar.svg) no-repeat;
+    background-position:center;
+}
+.quadro_prof{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #667085; 
+}

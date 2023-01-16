@@ -1,0 +1,57 @@
+.cabecalho__logo{
+    padding: .3rem;
+    grid-column: 1 / 1;
+}
+.cabecalho__logo-nome{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: inter;
+    font-weight: 500;
+    color: #3A404E;
+}
+.lista__cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: inter;
+    color: #667085;
+    grid-column: 2 / 2;
+}
+.lista__menu{
+    padding-right: 1rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+.lista__cabecalho-login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: inter;
+    color: #667085;
+    grid-column: 4 / 4;
+}
+.lista__titulo{
+    padding: .5rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+.lista__enviar{
+    padding: 1rem .9rem;
+    background: #8E2424;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    border-radius: 5px;
+}
+.lista__link{
+    text-decoration: none;
+}
